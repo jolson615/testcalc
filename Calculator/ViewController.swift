@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var num1: UITextField!
+    @IBOutlet weak var num2: UITextField!
+    @IBOutlet weak var answer: UILabel!
+    
+    @IBAction func multiply(_ sender: Any) {
+
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,6 +28,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    
 
 }
 

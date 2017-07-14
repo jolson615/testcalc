@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1780CB851F19298800708585 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1780CB841F19298800708585 /* Calculator.swift */; };
 		17DF46631F0AE172001B8D28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF46621F0AE172001B8D28 /* AppDelegate.swift */; };
 		17DF46651F0AE172001B8D28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DF46641F0AE172001B8D28 /* ViewController.swift */; };
 		17DF46681F0AE172001B8D28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17DF46661F0AE172001B8D28 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1780CB841F19298800708585 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 		17DF465F1F0AE172001B8D28 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17DF46621F0AE172001B8D28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17DF46641F0AE172001B8D28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				17DF46621F0AE172001B8D28 /* AppDelegate.swift */,
 				17DF46641F0AE172001B8D28 /* ViewController.swift */,
+				1780CB841F19298800708585 /* Calculator.swift */,
 				17DF46661F0AE172001B8D28 /* Main.storyboard */,
 				17DF46691F0AE172001B8D28 /* Assets.xcassets */,
 				17DF466B1F0AE172001B8D28 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				17DF46651F0AE172001B8D28 /* ViewController.swift in Sources */,
 				17DF46631F0AE172001B8D28 /* AppDelegate.swift in Sources */,
+				1780CB851F19298800708585 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				17DF46891F0AE172001B8D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17DF468A1F0AE172001B8D28 /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				17DF468C1F0AE172001B8D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		17DF468D1F0AE172001B8D28 /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				17DF468F1F0AE172001B8D28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
